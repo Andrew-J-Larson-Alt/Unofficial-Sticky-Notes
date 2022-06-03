@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/purpleLightStroke" />
+            <corners android:radius="@dimen/widget_note_corner_radius"/>
+            <padding android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+    <item android:top="@dimen/widget_note_stroke_height">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/purpleLightBackground" />
+            <corners android:bottomLeftRadius="@dimen/widget_note_corner_radius"
+                android:bottomRightRadius="@dimen/widget_note_corner_radius"/>
+            <padding android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+</layer-list>

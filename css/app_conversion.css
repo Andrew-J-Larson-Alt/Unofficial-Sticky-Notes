@@ -1,0 +1,78 @@
+/* ALL WEBSITES */
+
+/* Disables weird highlights and outlines
+ *
+ *
+ */
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+}
+*:focus {
+	outline: none!important;
+}
+
+/* Fixes weird scrolling that shouldn't happen
+ *
+ *
+ */
+
+html {
+    position:fixed;
+    height:100%;
+    width:100%;
+}
+
+/* ONLY WIDGET STICKY NOTES */
+
+/* prevent clicking of any buttons at top */
+#topLevelRegion {
+    pointer-events: none;
+}
+/* hide other unimportant elements */
+#O365_HeaderLeftRegion, #centerRegion, #HeaderButtonRegion, #O365_HeaderRightRegion, .n-newNoteButtonContainer {
+    display: none;
+}
+
+/* ONLY STICKY NOTES */
+
+/* Bulleted list spacing fixes (makes it parity the desktop and OneNote app)
+[class^="n-Phone"] ul.public-DraftStyleDefault-ul, [class^="n-Tablet"] ul.public-DraftStyleDefault-ul {
+  padding-left: 1em !important;
+}
+[class^="n-Desktop"] ul.public-DraftStyleDefault-ul {
+  padding-left: 1.2em !important;
+} */
+
+/* Disables the applications menu that offers other Microsoft products,
+   not needed anymore since a working menu is in effect */
+/* #O365_HeaderLeftRegion {
+	display: none
+} */
+
+/* the following are to disable the floating add note button, 
+   it was disabled when it wasn't working, so I'll leave it here if it
+   ever happens again */
+/* .n-Phone .n-newNoteButtonContainer {
+    width: auto !important;
+    height: auto !important;
+    border-radius: initial !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: auto !important;
+    background: transparent !important;
+    font-weight: normal !important;
+    position: static !important;
+    z-index: auto !important;
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 0 8px !important
+}
+.n-Phone .n-newNoteButtonIcon {
+    display: block !important
+}
+.n-Phone .n-newNoteButtonIcon .newNote path {
+    fill: var(--n-ui-icon) !important
+} */
