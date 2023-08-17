@@ -32,7 +32,7 @@ Perks so far:
 * It can be used offline
 * Swipe down to refresh
 * No ADs (for obvious reasons)
-* Open-source! https://github.com/TheAlienDrew/Unofficial-Sticky-Notes
+* Open-source! https://github.com/Andrew-J-Larson-Alt/Unofficial-Sticky-Notes
 
 Minor theme changes are located at https://userstyles.org/styles/170362/microsoft-sticky-notes-dark-mode
 
