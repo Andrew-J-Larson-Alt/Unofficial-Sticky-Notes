@@ -1,7 +1,7 @@
 package aliendrew.ms.stickynotes;
 
 // This Android app aims to make the Microsoft Sticky Notes website work with any Android 5.0+ device.
-/* Copyright (C) 2020  Andrew Larson (thealiendrew@gmail.com)
+/* Copyright (C) 2020  Andrew Larson (andrew.j.larson18+github+alt@gmail.com)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
